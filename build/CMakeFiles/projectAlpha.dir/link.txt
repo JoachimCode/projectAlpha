@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/projectAlpha.dir/src/main.cpp.o -o bin/projectAlpha  -Wl,-rpath,/home/joachim/programming/c++/projectAlpha/build/sfml/lib sfml/lib/libsfml-graphics.so.2.6.0 sfml/lib/libsfml-window.so.2.6.0 sfml/lib/libsfml-system.so.2.6.0 
