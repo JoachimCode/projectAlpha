@@ -1,9 +1,10 @@
 #ifndef INPUT_H
 #define INPUT_H
+#include "Direction.h"
 
 class Input {
     public:
-    int direction;
+    Direction direction;
     bool isShooting;
     bool isChangingTarget;
 };

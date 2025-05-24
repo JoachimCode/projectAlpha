@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o"
+  "CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o.d"
+  "CMakeFiles/projectAlpha.dir/src/GameplayState.cpp.o"
+  "CMakeFiles/projectAlpha.dir/src/GameplayState.cpp.o.d"
   "CMakeFiles/projectAlpha.dir/src/main.cpp.o"
   "CMakeFiles/projectAlpha.dir/src/main.cpp.o.d"
   "bin/projectAlpha"

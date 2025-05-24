@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/joachim/programming/c++/projectAlpha/include -I/home/joachim/libraries/SFML/include
+CXX_INCLUDES = -I/home/joachim/programming/c++/projectAlpha/include -I/home/joachim/programming/c++/projectAlpha/Utility -I/home/joachim/libraries/SFML/include
 
 CXX_FLAGS = 
 

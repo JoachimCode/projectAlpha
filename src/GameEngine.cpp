@@ -2,10 +2,29 @@
 
 sf::RenderWindow screen;
 sf::Clock gameClock;
+std::stack<std::unique_ptr<GameState>> GameStateStack;
 
 void GameEngine::gameLoop() {
+        while (screen.isOpen())
+    {
+        sf::Event event;
+        while (screen.pollEvent(event))
+        {
+            if (event.type == sf::Event::Closed) {
+                screen.close();
+                
+            }
+        }
 
+    }
 }
+
+int GameEngine::startGame() {
+    setUpScreen();
+    gameLoop();
+    return 0;
+}
+
 
 void GameEngine::setUpScreen() {
     screen.create(sf::VideoMode(Constants::widthWindow, Constants::heightWindow), 
@@ -16,11 +35,6 @@ void GameEngine::setUpScreen() {
 
 sf::RenderWindow& GameEngine::getScreen() {
     return screen;
-}
-
-int GameEngine::startGame() {
-    gameLoop();
-    return 0;
 }
 
 float GameEngine::getDeltaTime() {

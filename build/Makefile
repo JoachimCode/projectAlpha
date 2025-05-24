@@ -259,6 +259,54 @@ sfml-audio/fast:
 	$(MAKE) $(MAKESILENT) -f sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build.make sfml/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
 .PHONY : sfml-audio/fast
 
+src/GameEngine.o: src/GameEngine.cpp.o
+.PHONY : src/GameEngine.o
+
+# target to build an object file
+src/GameEngine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o
+.PHONY : src/GameEngine.cpp.o
+
+src/GameEngine.i: src/GameEngine.cpp.i
+.PHONY : src/GameEngine.i
+
+# target to preprocess a source file
+src/GameEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.i
+.PHONY : src/GameEngine.cpp.i
+
+src/GameEngine.s: src/GameEngine.cpp.s
+.PHONY : src/GameEngine.s
+
+# target to generate assembly for a file
+src/GameEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.s
+.PHONY : src/GameEngine.cpp.s
+
+src/GameplayState.o: src/GameplayState.cpp.o
+.PHONY : src/GameplayState.o
+
+# target to build an object file
+src/GameplayState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/GameplayState.cpp.o
+.PHONY : src/GameplayState.cpp.o
+
+src/GameplayState.i: src/GameplayState.cpp.i
+.PHONY : src/GameplayState.i
+
+# target to preprocess a source file
+src/GameplayState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/GameplayState.cpp.i
+.PHONY : src/GameplayState.cpp.i
+
+src/GameplayState.s: src/GameplayState.cpp.s
+.PHONY : src/GameplayState.s
+
+# target to generate assembly for a file
+src/GameplayState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/GameplayState.cpp.s
+.PHONY : src/GameplayState.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -303,6 +351,12 @@ help:
 	@echo "... sfml-network"
 	@echo "... sfml-system"
 	@echo "... sfml-window"
+	@echo "... src/GameEngine.o"
+	@echo "... src/GameEngine.i"
+	@echo "... src/GameEngine.s"
+	@echo "... src/GameplayState.o"
+	@echo "... src/GameplayState.i"
+	@echo "... src/GameplayState.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

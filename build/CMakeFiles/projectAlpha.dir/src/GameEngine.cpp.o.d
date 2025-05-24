@@ -1,6 +1,7 @@
-CMakeFiles/projectAlpha.dir/src/main.cpp.o: \
- /home/joachim/programming/c++/projectAlpha/src/main.cpp \
+CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o: \
+ /home/joachim/programming/c++/projectAlpha/src/GameEngine.cpp \
  /usr/include/stdc-predef.h \
+ /home/joachim/programming/c++/projectAlpha/include/GameEngine.h \
  /home/joachim/libraries/SFML/include/SFML/Graphics.hpp \
  /home/joachim/libraries/SFML/include/SFML/Window.hpp \
  /home/joachim/libraries/SFML/include/SFML/System.hpp \
@@ -251,7 +252,6 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: \
  /home/joachim/libraries/SFML/include/SFML/Graphics/Sprite.hpp \
  /home/joachim/libraries/SFML/include/SFML/Graphics/Text.hpp \
  /home/joachim/libraries/SFML/include/SFML/Graphics/VertexBuffer.hpp \
- /home/joachim/programming/c++/projectAlpha/include/GameEngine.h \
  /home/joachim/programming/c++/projectAlpha/Utility/Constants.h \
  /usr/include/c++/13/stack /usr/include/c++/13/deque \
  /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
