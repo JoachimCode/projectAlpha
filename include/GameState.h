@@ -3,15 +3,21 @@
 #include "Input.h"
 #include "InputHandler.h"
 
+
 class GameState {
     public:
+
     InputHandler inputHandler;
     virtual Input getInput() = 0;
     virtual void update() = 0;
     virtual void renderScreen() = 0;
+    bool checkNewState() {return stateDone;}
+    void setStateDone() {stateDone = true;}
+    virtual GameState getNextState() = 0;
+
 
     private:
-
+    bool stateDone = false;
 };
 
 
