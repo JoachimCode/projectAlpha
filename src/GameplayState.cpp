@@ -13,7 +13,7 @@ void GameplayState::update() {
 
 }
 
-void GameplayState::renderScreen() {
+void GameplayState::renderScreen() const {
 
 }
 

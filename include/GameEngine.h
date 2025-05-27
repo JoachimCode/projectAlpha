@@ -7,6 +7,7 @@
 #include <memory>
 #include <GameplayState.h>
 #include <GameState.h>
+#include <Player.h>
 
 
 

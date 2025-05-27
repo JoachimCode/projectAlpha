@@ -3,6 +3,8 @@
 sf::RenderWindow screen;
 sf::Clock gameClock;
 std::stack<std::unique_ptr<GameState>> GameStateStack;
+Player player; 
+
 
 void GameEngine::gameLoop() {
         while (screen.isOpen())
