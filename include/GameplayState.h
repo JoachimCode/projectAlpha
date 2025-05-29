@@ -3,19 +3,24 @@
 #include "GameState.h"
 #include <vector>
 #include <Player.h>
+#include <CutsceneState.h>
+
 
 
 class GameplayState : public GameState {
     public:
+    //send player into factory and it sets it for next stage
+    GameplayState(std::unique_ptr<CutsceneState> nextCutscene_, Player& player_) : nextCutScene(std::move(nextCutscene_)) {
+       player = player_;
+    }
     Player player;
     Input getInput() override;
     void update() override;
     void renderScreen() override;   
-
-
-
+    
 
     private: 
+    std::unique_ptr<CutsceneState> nextCutScene;
     std::vector<int> enemies;
     
 };
