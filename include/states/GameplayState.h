@@ -14,7 +14,6 @@ class GameplayState : public GameState {
        player = player_;
     }
     Player player;
-    Input getInput() override;
     void update() override;
     void renderScreen() override;   
     
