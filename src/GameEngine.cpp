@@ -4,22 +4,25 @@ sf::RenderWindow screen;
 sf::Clock gameClock;
 std::stack<std::unique_ptr<GameState>> GameStateStack;
 Player player; 
-
+Painter painter;
 
 void GameEngine::gameLoop() {
         while (screen.isOpen())
     {
+
+
+
+
+
         sf::Event event;
+        /*
         while (screen.pollEvent(event))
         {
             if (event.type == sf::Event::Closed) {
                 screen.close();
-                
             }
         }
-
-        
-
+        */
     }
 }
 
@@ -49,6 +52,11 @@ float GameEngine::getDeltaTime() {
 sf::Clock& GameEngine::getGameClock() {
     return gameClock;
 }
+
+void GameEngine::testStart() {
+    GameplayState testState(null, player)
+}
+
 
 
 

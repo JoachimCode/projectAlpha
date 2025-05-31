@@ -14,7 +14,7 @@ class GameState {
     }
 
     virtual void update() = 0;
-    virtual void renderScreen() = 0;
+    virtual void renderScreen(sf::RenderWindow& window, Painter painter) const = 0;
 
 
     const StateChangeRequest& getChangeRequest() const {return currentChangeRequest;}

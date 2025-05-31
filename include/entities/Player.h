@@ -6,6 +6,7 @@
 class Player : public Entity {
     public:
     Player(float xPosition, float yPosition, float ms, int health, int id);
+    
 };
 
 

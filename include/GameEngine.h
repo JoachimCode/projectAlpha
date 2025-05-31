@@ -16,13 +16,19 @@ class GameEngine {
     int startGame();
     void gameLoop();
 
+    //fix this, then create state in testStart() and test.
+    GameEngine() : painter(), player() {};
+
     private:
+    Painter painter;
     sf::RenderWindow screen;
     sf::Clock gameClock;
     float getDeltaTime();
     void setUpScreen();
     sf::RenderWindow& getScreen();
     sf::Clock& getGameClock();
+
+    void testStart();
 };
 
 

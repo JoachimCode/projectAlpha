@@ -4,16 +4,16 @@ std::vector<int> enemies;
 InputHandler inputHandler;
 Player player;
 
-Input GameplayState::getInput() { 
-    return inputHandler.getInput();
-}
+
 
  
 void GameplayState::update() {
 
 }
 
-void GameplayState::renderScreen() const {
-
+void GameplayState::renderScreen(sf::RenderWindow& window, Painter painter) const {
+    window.clear(sf::Color::Black);
+    painter.drawEntity(player);
+    window.display();
 }
 
