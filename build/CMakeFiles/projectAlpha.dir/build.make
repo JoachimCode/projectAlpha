@@ -83,24 +83,10 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projectAlpha.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joachim/programming/c++/projectAlpha/src/main.cpp -o CMakeFiles/projectAlpha.dir/src/main.cpp.s
 
-CMakeFiles/projectAlpha.dir/src/GameplayState.cpp.o: CMakeFiles/projectAlpha.dir/flags.make
-CMakeFiles/projectAlpha.dir/src/GameplayState.cpp.o: /home/joachim/programming/c++/projectAlpha/src/GameplayState.cpp
-CMakeFiles/projectAlpha.dir/src/GameplayState.cpp.o: CMakeFiles/projectAlpha.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joachim/programming/c++/projectAlpha/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/projectAlpha.dir/src/GameplayState.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projectAlpha.dir/src/GameplayState.cpp.o -MF CMakeFiles/projectAlpha.dir/src/GameplayState.cpp.o.d -o CMakeFiles/projectAlpha.dir/src/GameplayState.cpp.o -c /home/joachim/programming/c++/projectAlpha/src/GameplayState.cpp
-
-CMakeFiles/projectAlpha.dir/src/GameplayState.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/projectAlpha.dir/src/GameplayState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joachim/programming/c++/projectAlpha/src/GameplayState.cpp > CMakeFiles/projectAlpha.dir/src/GameplayState.cpp.i
-
-CMakeFiles/projectAlpha.dir/src/GameplayState.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projectAlpha.dir/src/GameplayState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joachim/programming/c++/projectAlpha/src/GameplayState.cpp -o CMakeFiles/projectAlpha.dir/src/GameplayState.cpp.s
-
 CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o: CMakeFiles/projectAlpha.dir/flags.make
 CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o: /home/joachim/programming/c++/projectAlpha/src/GameEngine.cpp
 CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o: CMakeFiles/projectAlpha.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joachim/programming/c++/projectAlpha/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joachim/programming/c++/projectAlpha/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o -MF CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o.d -o CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o -c /home/joachim/programming/c++/projectAlpha/src/GameEngine.cpp
 
 CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.i: cmake_force
@@ -111,24 +97,118 @@ CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joachim/programming/c++/projectAlpha/src/GameEngine.cpp -o CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.s
 
+CMakeFiles/projectAlpha.dir/src/InputHandler.cpp.o: CMakeFiles/projectAlpha.dir/flags.make
+CMakeFiles/projectAlpha.dir/src/InputHandler.cpp.o: /home/joachim/programming/c++/projectAlpha/src/InputHandler.cpp
+CMakeFiles/projectAlpha.dir/src/InputHandler.cpp.o: CMakeFiles/projectAlpha.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joachim/programming/c++/projectAlpha/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/projectAlpha.dir/src/InputHandler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projectAlpha.dir/src/InputHandler.cpp.o -MF CMakeFiles/projectAlpha.dir/src/InputHandler.cpp.o.d -o CMakeFiles/projectAlpha.dir/src/InputHandler.cpp.o -c /home/joachim/programming/c++/projectAlpha/src/InputHandler.cpp
+
+CMakeFiles/projectAlpha.dir/src/InputHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/projectAlpha.dir/src/InputHandler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joachim/programming/c++/projectAlpha/src/InputHandler.cpp > CMakeFiles/projectAlpha.dir/src/InputHandler.cpp.i
+
+CMakeFiles/projectAlpha.dir/src/InputHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projectAlpha.dir/src/InputHandler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joachim/programming/c++/projectAlpha/src/InputHandler.cpp -o CMakeFiles/projectAlpha.dir/src/InputHandler.cpp.s
+
+CMakeFiles/projectAlpha.dir/src/Painter.cpp.o: CMakeFiles/projectAlpha.dir/flags.make
+CMakeFiles/projectAlpha.dir/src/Painter.cpp.o: /home/joachim/programming/c++/projectAlpha/src/Painter.cpp
+CMakeFiles/projectAlpha.dir/src/Painter.cpp.o: CMakeFiles/projectAlpha.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joachim/programming/c++/projectAlpha/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/projectAlpha.dir/src/Painter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projectAlpha.dir/src/Painter.cpp.o -MF CMakeFiles/projectAlpha.dir/src/Painter.cpp.o.d -o CMakeFiles/projectAlpha.dir/src/Painter.cpp.o -c /home/joachim/programming/c++/projectAlpha/src/Painter.cpp
+
+CMakeFiles/projectAlpha.dir/src/Painter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/projectAlpha.dir/src/Painter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joachim/programming/c++/projectAlpha/src/Painter.cpp > CMakeFiles/projectAlpha.dir/src/Painter.cpp.i
+
+CMakeFiles/projectAlpha.dir/src/Painter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projectAlpha.dir/src/Painter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joachim/programming/c++/projectAlpha/src/Painter.cpp -o CMakeFiles/projectAlpha.dir/src/Painter.cpp.s
+
+CMakeFiles/projectAlpha.dir/src/entities/Player.cpp.o: CMakeFiles/projectAlpha.dir/flags.make
+CMakeFiles/projectAlpha.dir/src/entities/Player.cpp.o: /home/joachim/programming/c++/projectAlpha/src/entities/Player.cpp
+CMakeFiles/projectAlpha.dir/src/entities/Player.cpp.o: CMakeFiles/projectAlpha.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joachim/programming/c++/projectAlpha/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/projectAlpha.dir/src/entities/Player.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projectAlpha.dir/src/entities/Player.cpp.o -MF CMakeFiles/projectAlpha.dir/src/entities/Player.cpp.o.d -o CMakeFiles/projectAlpha.dir/src/entities/Player.cpp.o -c /home/joachim/programming/c++/projectAlpha/src/entities/Player.cpp
+
+CMakeFiles/projectAlpha.dir/src/entities/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/projectAlpha.dir/src/entities/Player.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joachim/programming/c++/projectAlpha/src/entities/Player.cpp > CMakeFiles/projectAlpha.dir/src/entities/Player.cpp.i
+
+CMakeFiles/projectAlpha.dir/src/entities/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projectAlpha.dir/src/entities/Player.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joachim/programming/c++/projectAlpha/src/entities/Player.cpp -o CMakeFiles/projectAlpha.dir/src/entities/Player.cpp.s
+
+CMakeFiles/projectAlpha.dir/src/factories/StageGenerator.cpp.o: CMakeFiles/projectAlpha.dir/flags.make
+CMakeFiles/projectAlpha.dir/src/factories/StageGenerator.cpp.o: /home/joachim/programming/c++/projectAlpha/src/factories/StageGenerator.cpp
+CMakeFiles/projectAlpha.dir/src/factories/StageGenerator.cpp.o: CMakeFiles/projectAlpha.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joachim/programming/c++/projectAlpha/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/projectAlpha.dir/src/factories/StageGenerator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projectAlpha.dir/src/factories/StageGenerator.cpp.o -MF CMakeFiles/projectAlpha.dir/src/factories/StageGenerator.cpp.o.d -o CMakeFiles/projectAlpha.dir/src/factories/StageGenerator.cpp.o -c /home/joachim/programming/c++/projectAlpha/src/factories/StageGenerator.cpp
+
+CMakeFiles/projectAlpha.dir/src/factories/StageGenerator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/projectAlpha.dir/src/factories/StageGenerator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joachim/programming/c++/projectAlpha/src/factories/StageGenerator.cpp > CMakeFiles/projectAlpha.dir/src/factories/StageGenerator.cpp.i
+
+CMakeFiles/projectAlpha.dir/src/factories/StageGenerator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projectAlpha.dir/src/factories/StageGenerator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joachim/programming/c++/projectAlpha/src/factories/StageGenerator.cpp -o CMakeFiles/projectAlpha.dir/src/factories/StageGenerator.cpp.s
+
+CMakeFiles/projectAlpha.dir/src/states/CutSceneState.cpp.o: CMakeFiles/projectAlpha.dir/flags.make
+CMakeFiles/projectAlpha.dir/src/states/CutSceneState.cpp.o: /home/joachim/programming/c++/projectAlpha/src/states/CutSceneState.cpp
+CMakeFiles/projectAlpha.dir/src/states/CutSceneState.cpp.o: CMakeFiles/projectAlpha.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joachim/programming/c++/projectAlpha/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/projectAlpha.dir/src/states/CutSceneState.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projectAlpha.dir/src/states/CutSceneState.cpp.o -MF CMakeFiles/projectAlpha.dir/src/states/CutSceneState.cpp.o.d -o CMakeFiles/projectAlpha.dir/src/states/CutSceneState.cpp.o -c /home/joachim/programming/c++/projectAlpha/src/states/CutSceneState.cpp
+
+CMakeFiles/projectAlpha.dir/src/states/CutSceneState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/projectAlpha.dir/src/states/CutSceneState.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joachim/programming/c++/projectAlpha/src/states/CutSceneState.cpp > CMakeFiles/projectAlpha.dir/src/states/CutSceneState.cpp.i
+
+CMakeFiles/projectAlpha.dir/src/states/CutSceneState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projectAlpha.dir/src/states/CutSceneState.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joachim/programming/c++/projectAlpha/src/states/CutSceneState.cpp -o CMakeFiles/projectAlpha.dir/src/states/CutSceneState.cpp.s
+
+CMakeFiles/projectAlpha.dir/src/states/GameplayState.cpp.o: CMakeFiles/projectAlpha.dir/flags.make
+CMakeFiles/projectAlpha.dir/src/states/GameplayState.cpp.o: /home/joachim/programming/c++/projectAlpha/src/states/GameplayState.cpp
+CMakeFiles/projectAlpha.dir/src/states/GameplayState.cpp.o: CMakeFiles/projectAlpha.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/joachim/programming/c++/projectAlpha/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/projectAlpha.dir/src/states/GameplayState.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projectAlpha.dir/src/states/GameplayState.cpp.o -MF CMakeFiles/projectAlpha.dir/src/states/GameplayState.cpp.o.d -o CMakeFiles/projectAlpha.dir/src/states/GameplayState.cpp.o -c /home/joachim/programming/c++/projectAlpha/src/states/GameplayState.cpp
+
+CMakeFiles/projectAlpha.dir/src/states/GameplayState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/projectAlpha.dir/src/states/GameplayState.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joachim/programming/c++/projectAlpha/src/states/GameplayState.cpp > CMakeFiles/projectAlpha.dir/src/states/GameplayState.cpp.i
+
+CMakeFiles/projectAlpha.dir/src/states/GameplayState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/projectAlpha.dir/src/states/GameplayState.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joachim/programming/c++/projectAlpha/src/states/GameplayState.cpp -o CMakeFiles/projectAlpha.dir/src/states/GameplayState.cpp.s
+
 # Object files for target projectAlpha
 projectAlpha_OBJECTS = \
 "CMakeFiles/projectAlpha.dir/src/main.cpp.o" \
-"CMakeFiles/projectAlpha.dir/src/GameplayState.cpp.o" \
-"CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o"
+"CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o" \
+"CMakeFiles/projectAlpha.dir/src/InputHandler.cpp.o" \
+"CMakeFiles/projectAlpha.dir/src/Painter.cpp.o" \
+"CMakeFiles/projectAlpha.dir/src/entities/Player.cpp.o" \
+"CMakeFiles/projectAlpha.dir/src/factories/StageGenerator.cpp.o" \
+"CMakeFiles/projectAlpha.dir/src/states/CutSceneState.cpp.o" \
+"CMakeFiles/projectAlpha.dir/src/states/GameplayState.cpp.o"
 
 # External object files for target projectAlpha
 projectAlpha_EXTERNAL_OBJECTS =
 
 bin/projectAlpha: CMakeFiles/projectAlpha.dir/src/main.cpp.o
-bin/projectAlpha: CMakeFiles/projectAlpha.dir/src/GameplayState.cpp.o
 bin/projectAlpha: CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o
+bin/projectAlpha: CMakeFiles/projectAlpha.dir/src/InputHandler.cpp.o
+bin/projectAlpha: CMakeFiles/projectAlpha.dir/src/Painter.cpp.o
+bin/projectAlpha: CMakeFiles/projectAlpha.dir/src/entities/Player.cpp.o
+bin/projectAlpha: CMakeFiles/projectAlpha.dir/src/factories/StageGenerator.cpp.o
+bin/projectAlpha: CMakeFiles/projectAlpha.dir/src/states/CutSceneState.cpp.o
+bin/projectAlpha: CMakeFiles/projectAlpha.dir/src/states/GameplayState.cpp.o
 bin/projectAlpha: CMakeFiles/projectAlpha.dir/build.make
 bin/projectAlpha: sfml/lib/libsfml-graphics.so.2.6.0
 bin/projectAlpha: sfml/lib/libsfml-window.so.2.6.0
 bin/projectAlpha: sfml/lib/libsfml-system.so.2.6.0
 bin/projectAlpha: CMakeFiles/projectAlpha.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/joachim/programming/c++/projectAlpha/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable bin/projectAlpha"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/joachim/programming/c++/projectAlpha/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable bin/projectAlpha"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/projectAlpha.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,6 +1,6 @@
 #ifndef PAINTER_H
 #define PAINTER_H
-#include <Entity.h>
+#include <entities/Entity.h>
 #include <SFML/Graphics.hpp>
 
 class Painter {

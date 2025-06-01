@@ -1,4 +1,4 @@
-#include "GameplayState.h"
+#include "states/GameplayState.h"
 
 std::vector<int> enemies;
 InputHandler inputHandler;

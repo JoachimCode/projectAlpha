@@ -19,7 +19,7 @@ class GameState {
 
     const StateChangeRequest& getChangeRequest() const {return currentChangeRequest;}
 
-    Input getInput() const {return inputHandler.getInput();}
+    Input getInput() {return inputHandler.getInput();}
 };
 
 

@@ -26,6 +26,7 @@ void GameEngine::gameLoop() {
     }
 }
 
+
 int GameEngine::startGame() {
     setUpScreen();
     gameLoop();
@@ -54,7 +55,7 @@ sf::Clock& GameEngine::getGameClock() {
 }
 
 void GameEngine::testStart() {
-    GameplayState testState(null, player)
+    GameplayState testState(nullptr, player);
 }
 
 

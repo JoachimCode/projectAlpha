@@ -80,15 +80,23 @@ CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o: /home/joachim/programming/c++/
   /home/joachim/libraries/SFML/include/SFML/Window/WindowStyle.hpp \
   /home/joachim/programming/c++/projectAlpha/Utility/Constants.h \
   /home/joachim/programming/c++/projectAlpha/include/GameEngine.h \
+  /home/joachim/programming/c++/projectAlpha/include/GameState.h \
+  /home/joachim/programming/c++/projectAlpha/include/GameplayState.h \
+  /home/joachim/programming/c++/projectAlpha/include/Input.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/c++/13/algorithm \
+  /usr/include/c++/13/backward/auto_ptr.h \
   /usr/include/c++/13/backward/binders.h \
   /usr/include/c++/13/bit \
   /usr/include/c++/13/bits/algorithmfwd.h \
+  /usr/include/c++/13/bits/align.h \
   /usr/include/c++/13/bits/alloc_traits.h \
+  /usr/include/c++/13/bits/allocated_ptr.h \
   /usr/include/c++/13/bits/allocator.h \
+  /usr/include/c++/13/bits/atomic_base.h \
+  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
   /usr/include/c++/13/bits/basic_ios.h \
   /usr/include/c++/13/bits/basic_ios.tcc \
   /usr/include/c++/13/bits/basic_string.h \
@@ -100,6 +108,7 @@ CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o: /home/joachim/programming/c++/
   /usr/include/c++/13/bits/cpp_type_traits.h \
   /usr/include/c++/13/bits/cxxabi_forced.h \
   /usr/include/c++/13/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13/bits/deque.tcc \
   /usr/include/c++/13/bits/erase_if.h \
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
@@ -131,11 +140,15 @@ CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o: /home/joachim/programming/c++/
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
   /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/shared_ptr.h \
+  /usr/include/c++/13/bits/shared_ptr_atomic.h \
+  /usr/include/c++/13/bits/shared_ptr_base.h \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/stl_algo.h \
   /usr/include/c++/13/bits/stl_algobase.h \
   /usr/include/c++/13/bits/stl_bvector.h \
   /usr/include/c++/13/bits/stl_construct.h \
+  /usr/include/c++/13/bits/stl_deque.h \
   /usr/include/c++/13/bits/stl_function.h \
   /usr/include/c++/13/bits/stl_heap.h \
   /usr/include/c++/13/bits/stl_iterator.h \
@@ -144,6 +157,8 @@ CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o: /home/joachim/programming/c++/
   /usr/include/c++/13/bits/stl_map.h \
   /usr/include/c++/13/bits/stl_multimap.h \
   /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/13/bits/stl_stack.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_tree.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
@@ -154,6 +169,7 @@ CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o: /home/joachim/programming/c++/
   /usr/include/c++/13/bits/string_view.tcc \
   /usr/include/c++/13/bits/stringfwd.h \
   /usr/include/c++/13/bits/uniform_int_dist.h \
+  /usr/include/c++/13/bits/unique_ptr.h \
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
@@ -169,10 +185,12 @@ CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o: /home/joachim/programming/c++/
   /usr/include/c++/13/cwctype \
   /usr/include/c++/13/debug/assertions.h \
   /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/deque \
   /usr/include/c++/13/exception \
   /usr/include/c++/13/ext/aligned_buffer.h \
   /usr/include/c++/13/ext/alloc_traits.h \
   /usr/include/c++/13/ext/atomicity.h \
+  /usr/include/c++/13/ext/concurrence.h \
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
@@ -182,11 +200,14 @@ CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o: /home/joachim/programming/c++/
   /usr/include/c++/13/iterator \
   /usr/include/c++/13/locale \
   /usr/include/c++/13/map \
+  /usr/include/c++/13/memory \
   /usr/include/c++/13/new \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/pstl/execution_defs.h \
   /usr/include/c++/13/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/13/pstl/glue_memory_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/stack \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
@@ -297,12 +318,6 @@ CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o: /home/joachim/programming/c++/
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
-
-CMakeFiles/projectAlpha.dir/src/GameplayState.cpp.o: /home/joachim/programming/c++/projectAlpha/src/GameplayState.cpp \
-  /home/joachim/programming/c++/projectAlpha/include/GameState.h \
-  /home/joachim/programming/c++/projectAlpha/include/GameplayState.h \
-  /home/joachim/programming/c++/projectAlpha/include/Input.h \
-  /usr/include/stdc-predef.h
 
 CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projectAlpha/src/main.cpp \
   /home/joachim/libraries/SFML/include/SFML/Config.hpp \
@@ -381,15 +396,25 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
   /home/joachim/libraries/SFML/include/SFML/Window/WindowBase.hpp \
   /home/joachim/libraries/SFML/include/SFML/Window/WindowHandle.hpp \
   /home/joachim/libraries/SFML/include/SFML/Window/WindowStyle.hpp \
+  /home/joachim/programming/c++/projectAlpha/Utility/Constants.h \
+  /home/joachim/programming/c++/projectAlpha/include/GameEngine.h \
+  /home/joachim/programming/c++/projectAlpha/include/GameState.h \
+  /home/joachim/programming/c++/projectAlpha/include/GameplayState.h \
+  /home/joachim/programming/c++/projectAlpha/include/Input.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/c++/13/algorithm \
+  /usr/include/c++/13/backward/auto_ptr.h \
   /usr/include/c++/13/backward/binders.h \
   /usr/include/c++/13/bit \
   /usr/include/c++/13/bits/algorithmfwd.h \
+  /usr/include/c++/13/bits/align.h \
   /usr/include/c++/13/bits/alloc_traits.h \
+  /usr/include/c++/13/bits/allocated_ptr.h \
   /usr/include/c++/13/bits/allocator.h \
+  /usr/include/c++/13/bits/atomic_base.h \
+  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
   /usr/include/c++/13/bits/basic_ios.h \
   /usr/include/c++/13/bits/basic_ios.tcc \
   /usr/include/c++/13/bits/basic_string.h \
@@ -401,6 +426,7 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
   /usr/include/c++/13/bits/cpp_type_traits.h \
   /usr/include/c++/13/bits/cxxabi_forced.h \
   /usr/include/c++/13/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13/bits/deque.tcc \
   /usr/include/c++/13/bits/erase_if.h \
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
@@ -432,11 +458,15 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
   /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/shared_ptr.h \
+  /usr/include/c++/13/bits/shared_ptr_atomic.h \
+  /usr/include/c++/13/bits/shared_ptr_base.h \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/stl_algo.h \
   /usr/include/c++/13/bits/stl_algobase.h \
   /usr/include/c++/13/bits/stl_bvector.h \
   /usr/include/c++/13/bits/stl_construct.h \
+  /usr/include/c++/13/bits/stl_deque.h \
   /usr/include/c++/13/bits/stl_function.h \
   /usr/include/c++/13/bits/stl_heap.h \
   /usr/include/c++/13/bits/stl_iterator.h \
@@ -445,6 +475,8 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
   /usr/include/c++/13/bits/stl_map.h \
   /usr/include/c++/13/bits/stl_multimap.h \
   /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/13/bits/stl_stack.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_tree.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
@@ -455,6 +487,7 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
   /usr/include/c++/13/bits/string_view.tcc \
   /usr/include/c++/13/bits/stringfwd.h \
   /usr/include/c++/13/bits/uniform_int_dist.h \
+  /usr/include/c++/13/bits/unique_ptr.h \
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
@@ -470,10 +503,12 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
   /usr/include/c++/13/cwctype \
   /usr/include/c++/13/debug/assertions.h \
   /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/deque \
   /usr/include/c++/13/exception \
   /usr/include/c++/13/ext/aligned_buffer.h \
   /usr/include/c++/13/ext/alloc_traits.h \
   /usr/include/c++/13/ext/atomicity.h \
+  /usr/include/c++/13/ext/concurrence.h \
   /usr/include/c++/13/ext/numeric_traits.h \
   /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
@@ -483,11 +518,14 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
   /usr/include/c++/13/iterator \
   /usr/include/c++/13/locale \
   /usr/include/c++/13/map \
+  /usr/include/c++/13/memory \
   /usr/include/c++/13/new \
   /usr/include/c++/13/ostream \
   /usr/include/c++/13/pstl/execution_defs.h \
   /usr/include/c++/13/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/13/pstl/glue_memory_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/stack \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
@@ -600,12 +638,6 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
 
 
-/home/joachim/programming/c++/projectAlpha/include/Input.h:
-
-/home/joachim/programming/c++/projectAlpha/include/GameplayState.h:
-
-/home/joachim/programming/c++/projectAlpha/include/GameState.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
@@ -656,25 +688,37 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
-/usr/include/c++/13/bits/ptr_traits.h:
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
-/usr/include/c++/13/bits/predefined_ops.h:
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
-/usr/include/c++/13/bits/ostream_insert.h:
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
-/home/joachim/libraries/SFML/include/SFML/Window/Window.hpp:
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
-/usr/include/c++/13/bits/uses_allocator_args.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
-/usr/include/c++/13/bits/move.h:
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/c++/13/bits/memoryfwd.h:
-
-/usr/include/c++/13/bits/postypes.h:
-
-/usr/include/c++/13/bits/std_abs.h:
-
-/usr/include/c++/13/bits/uses_allocator.h:
 
 /usr/include/c++/13/bits/locale_facets_nonio.tcc:
 
@@ -683,6 +727,10 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
 /usr/include/c++/13/bits/locale_facets.tcc:
 
 /home/joachim/libraries/SFML/include/SFML/Graphics/Text.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/c++/13/bits/locale_classes.h:
 
 /usr/include/c++/13/bits/functional_hash.h:
 
@@ -702,19 +750,11 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
 
 /usr/include/c++/13/typeinfo:
 
-/usr/include/c++/13/bits/concept_check.h:
-
-/usr/include/c++/13/bits/alloc_traits.h:
-
 /usr/include/c++/13/bits/basic_string.h:
 
 /usr/include/libintl.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/home/joachim/libraries/SFML/include/SFML/Graphics/Texture.hpp:
-
-/home/joachim/libraries/SFML/include/SFML/System/Vector2.hpp:
 
 /usr/include/c++/13/bits/basic_ios.tcc:
 
@@ -722,11 +762,31 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
 
 /usr/include/c++/13/bits/basic_ios.h:
 
-/usr/include/x86_64-linux-gnu/bits/time64.h:
+/usr/include/c++/13/bits/atomic_lockfree_defines.h:
+
+/home/joachim/libraries/SFML/include/SFML/Graphics/Glsl.hpp:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/c++/13/bits/concept_check.h:
+
+/usr/include/c++/13/bits/alloc_traits.h:
+
+/usr/include/c++/13/bits/atomic_base.h:
+
+/home/joachim/libraries/SFML/include/SFML/Window/Window.hpp:
+
+/usr/include/c++/13/bits/uses_allocator_args.h:
 
 /usr/include/c++/13/bits/allocator.h:
 
 /usr/include/c++/13/bits/stl_bvector.h:
+
+/usr/include/c++/13/bits/align.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/c++/13/bits/unique_ptr.h:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
@@ -734,9 +794,9 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
 
 /home/joachim/libraries/SFML/include/SFML/System/Err.hpp:
 
-/home/joachim/libraries/SFML/include/SFML/Graphics/RenderStates.hpp:
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
-/usr/include/c++/13/bit:
+/usr/include/c++/13/bits/charconv.h:
 
 /home/joachim/libraries/SFML/include/SFML/System/Time.hpp:
 
@@ -744,25 +804,45 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
 
 /usr/include/c++/13/bits/hash_bytes.h:
 
+/home/joachim/programming/c++/projectAlpha/include/Input.h:
+
+/home/joachim/libraries/SFML/include/SFML/System/Clock.hpp:
+
+/home/joachim/programming/c++/projectAlpha/include/GameplayState.h:
+
+/home/joachim/programming/c++/projectAlpha/include/GameState.h:
+
 /usr/include/c++/13/algorithm:
 
 /home/joachim/programming/c++/projectAlpha/include/GameEngine.h:
+
+/home/joachim/libraries/SFML/include/SFML/Graphics/RenderStates.hpp:
+
+/usr/include/c++/13/bit:
+
+/usr/include/c++/13/bits/allocated_ptr.h:
 
 /home/joachim/libraries/SFML/include/SFML/Window/WindowHandle.hpp:
 
 /home/joachim/libraries/SFML/include/SFML/Window/VideoMode.hpp:
 
-/home/joachim/libraries/SFML/include/SFML/Window/ContextSettings.hpp:
-
-/home/joachim/libraries/SFML/include/SFML/Window/Keyboard.hpp:
-
 /home/joachim/programming/c++/projectAlpha/src/main.cpp:
+
+/usr/include/c++/13/stack:
 
 /home/joachim/libraries/SFML/include/SFML/Window/Joystick.hpp:
 
 /usr/include/c++/13/bits/exception_ptr.h:
 
-/usr/include/c++/13/bits/ostream.tcc:
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/home/joachim/libraries/SFML/include/SFML/System/Vector3.hpp:
+
+/usr/include/c++/13/bits/stl_multimap.h:
+
+/home/joachim/libraries/SFML/include/SFML/Graphics/Texture.hpp:
+
+/home/joachim/libraries/SFML/include/SFML/System/Vector2.hpp:
 
 /usr/include/stdlib.h:
 
@@ -782,17 +862,11 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
 
 /home/joachim/libraries/SFML/include/SFML/System/Mutex.hpp:
 
-/home/joachim/libraries/SFML/include/SFML/Graphics/Shader.hpp:
-
 /home/joachim/libraries/SFML/include/SFML/Graphics/Rect.inl:
 
 /home/joachim/libraries/SFML/include/SFML/Window/Mouse.hpp:
 
 /usr/include/c++/13/vector:
-
-/home/joachim/libraries/SFML/include/SFML/Graphics/Glsl.hpp:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /home/joachim/libraries/SFML/include/SFML/Graphics/View.hpp:
 
@@ -828,15 +902,11 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
 
 /home/joachim/libraries/SFML/include/SFML/Graphics/RectangleShape.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
 /home/joachim/libraries/SFML/include/SFML/Graphics/Shape.hpp:
 
 /usr/include/c++/13/type_traits:
 
 /usr/include/c++/13/bits/cpp_type_traits.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
 
 /usr/include/c++/13/ext/aligned_buffer.h:
 
@@ -850,7 +920,9 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
 
 /usr/include/x86_64-linux-gnu/bits/stdint-least.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+/usr/include/c++/13/clocale:
+
+/home/joachim/libraries/SFML/include/SFML/System/Thread.hpp:
 
 /usr/include/c++/13/cstdio:
 
@@ -870,6 +942,8 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
 
 /usr/include/c++/13/bits/stl_iterator_base_funcs.h:
 
+/usr/include/c++/13/bits/shared_ptr.h:
+
 /home/joachim/libraries/SFML/include/SFML/System/Utf.hpp:
 
 /home/joachim/libraries/SFML/include/SFML/Graphics/Rect.hpp:
@@ -880,6 +954,8 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
 
 /usr/include/c++/13/backward/binders.h:
 
+/usr/include/c++/13/bits/ostream.tcc:
+
 /home/joachim/libraries/SFML/include/SFML/System/Lock.hpp:
 
 /home/joachim/libraries/SFML/include/SFML/Window/Vulkan.hpp:
@@ -889,6 +965,8 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
 /usr/include/c++/13/bits/stl_tree.h:
 
 /home/joachim/libraries/SFML/include/SFML/Graphics/RenderTexture.hpp:
+
+/usr/include/c++/13/backward/auto_ptr.h:
 
 /home/joachim/libraries/SFML/include/SFML/Window/Touch.hpp:
 
@@ -906,13 +984,9 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
 
 /home/joachim/libraries/SFML/include/SFML/System/Sleep.hpp:
 
+/usr/include/c++/13/bits/shared_ptr_atomic.h:
+
 /home/joachim/libraries/SFML/include/SFML/Graphics/Vertex.hpp:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/include/c++/13/bits/node_handle.h:
-
-/home/joachim/libraries/SFML/include/SFML/Graphics/Export.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
@@ -932,8 +1006,6 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
 
 /home/joachim/libraries/SFML/include/SFML/System.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
 /home/joachim/libraries/SFML/include/SFML/Window.hpp:
 
 /usr/include/c++/13/bits/cxxabi_forced.h:
@@ -946,8 +1018,6 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
 
 /home/joachim/libraries/SFML/include/SFML/Graphics/BlendMode.hpp:
 
-/home/joachim/libraries/SFML/include/SFML/System/Clock.hpp:
-
 /usr/include/c++/13/bits/functexcept.h:
 
 /home/joachim/libraries/SFML/include/SFML/System/FileInputStream.hpp:
@@ -956,21 +1026,29 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
 
 /usr/include/c++/13/bits/memory_resource.h:
 
-/usr/include/wchar.h:
-
 /usr/include/c++/13/bits/invoke.h:
-
-/home/joachim/programming/c++/projectAlpha/src/GameplayState.cpp:
 
 /home/joachim/libraries/SFML/include/SFML/System/NonCopyable.hpp:
 
 /usr/include/features-time64.h:
 
+/home/joachim/libraries/SFML/include/SFML/Graphics/Export.hpp:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/c++/13/bits/node_handle.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/home/joachim/libraries/SFML/include/SFML/System/String.hpp:
+
+/usr/include/wchar.h:
+
+/usr/include/c++/13/bits/shared_ptr_base.h:
+
+/usr/include/c++/13/bits/deque.tcc:
+
 /home/joachim/libraries/SFML/include/SFML/Graphics/RenderTarget.hpp:
-
-/usr/include/c++/13/iosfwd:
-
-/home/joachim/libraries/SFML/include/SFML/System/Thread.inl:
 
 /usr/include/c++/13/bits/ios_base.h:
 
@@ -980,13 +1058,29 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
 
 /home/joachim/libraries/SFML/include/SFML/System/Utf.inl:
 
-/usr/include/c++/13/exception:
-
 /usr/include/c++/13/bits/stl_pair.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /home/joachim/libraries/SFML/include/SFML/System/Vector2.inl:
+
+/usr/include/c++/13/bits/move.h:
+
+/usr/include/c++/13/bits/ostream_insert.h:
+
+/usr/include/c++/13/bits/postypes.h:
+
+/usr/include/c++/13/bits/std_abs.h:
+
+/usr/include/c++/13/bits/uses_allocator.h:
+
+/usr/include/c++/13/bits/predefined_ops.h:
+
+/home/joachim/libraries/SFML/include/SFML/System/Thread.inl:
+
+/usr/include/c++/13/iosfwd:
+
+/usr/include/c++/13/bits/ptr_traits.h:
 
 /usr/include/c++/13/bits/range_access.h:
 
@@ -1004,11 +1098,13 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
 
 /usr/include/c++/13/map:
 
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
 /usr/include/c++/13/bits/stl_algobase.h:
 
 /usr/include/c++/13/bits/stl_construct.h:
+
+/home/joachim/libraries/SFML/include/SFML/Graphics/Shader.hpp:
+
+/usr/include/c++/13/bits/stl_deque.h:
 
 /usr/include/c++/13/bits/stl_function.h:
 
@@ -1025,6 +1121,20 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
 /usr/include/c++/13/bits/stl_uninitialized.h:
 
 /usr/include/c++/13/locale:
+
+/home/joachim/libraries/SFML/include/SFML/Window/ContextSettings.hpp:
+
+/home/joachim/libraries/SFML/include/SFML/Window/Keyboard.hpp:
+
+/usr/include/c++/13/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/13/bits/stl_stack.h:
+
+/usr/include/c++/13/bits/stringfwd.h:
+
+/usr/include/c++/13/bits/locale_classes.tcc:
+
+/usr/include/c++/13/bits/uniform_int_dist.h:
 
 /home/joachim/libraries/SFML/include/SFML/Graphics/PrimitiveType.hpp:
 
@@ -1044,12 +1154,6 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
 
 /usr/include/c++/13/bits/string_view.tcc:
 
-/usr/include/c++/13/bits/stringfwd.h:
-
-/usr/include/c++/13/bits/locale_classes.tcc:
-
-/usr/include/c++/13/bits/uniform_int_dist.h:
-
 /usr/include/c++/13/bits/vector.tcc:
 
 /home/joachim/libraries/SFML/include/SFML/System/InputStream.hpp:
@@ -1060,13 +1164,11 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
 
 /usr/include/c++/13/ext/atomicity.h:
 
-/home/joachim/libraries/SFML/include/SFML/System/Thread.hpp:
-
-/usr/include/c++/13/clocale:
-
 /usr/include/c++/13/cstdlib:
 
 /usr/include/c++/13/ctime:
+
+/usr/include/c++/13/deque:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
@@ -1080,6 +1182,12 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
 
 /usr/include/c++/13/new:
 
+/usr/include/c++/13/ext/concurrence.h:
+
+/home/joachim/libraries/SFML/include/SFML/Graphics/Font.hpp:
+
+/usr/include/c++/13/pstl/glue_algorithm_defs.h:
+
 /usr/include/c++/13/ext/string_conversions.h:
 
 /home/joachim/libraries/SFML/include/SFML/Window/GlResource.hpp:
@@ -1090,9 +1198,13 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
 
 /usr/include/c++/13/ios:
 
-/home/joachim/libraries/SFML/include/SFML/Graphics/Font.hpp:
+/usr/include/c++/13/memory:
 
-/usr/include/c++/13/pstl/glue_algorithm_defs.h:
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/c++/13/exception:
+
+/usr/include/c++/13/pstl/glue_memory_defs.h:
 
 /usr/include/c++/13/pstl/pstl_config.h:
 
@@ -1138,23 +1250,19 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
-/home/joachim/libraries/SFML/include/SFML/System/String.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
 /usr/include/time.h:
 
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
 
@@ -1162,42 +1270,6 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: /home/joachim/programming/c++/projec
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
-/usr/include/c++/13/bits/locale_classes.h:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/home/joachim/libraries/SFML/include/SFML/System/Vector3.hpp:
-
-/usr/include/c++/13/bits/stl_multimap.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/c++/13/bits/charconv.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:

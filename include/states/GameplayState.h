@@ -1,8 +1,8 @@
 #ifndef GAMEPLAYSTATE_H
 #define GAMEPLAYSTATE_H
-#include "GameState.h"
+#include "states/GameState.h"
 #include <vector>
-#include <Player.h>
+#include <entities/Player.h>
 #include <CutsceneState.h>
 #include <Painter.h>
 

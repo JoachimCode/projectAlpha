@@ -81,15 +81,23 @@ CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o
  /home/joachim/libraries/SFML/include/SFML/Window/WindowStyle.hpp
  /home/joachim/programming/c++/projectAlpha/Utility/Constants.h
  /home/joachim/programming/c++/projectAlpha/include/GameEngine.h
+ /home/joachim/programming/c++/projectAlpha/include/GameState.h
+ /home/joachim/programming/c++/projectAlpha/include/GameplayState.h
+ /home/joachim/programming/c++/projectAlpha/include/Input.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
  /usr/include/c++/13/algorithm
+ /usr/include/c++/13/backward/auto_ptr.h
  /usr/include/c++/13/backward/binders.h
  /usr/include/c++/13/bit
  /usr/include/c++/13/bits/algorithmfwd.h
+ /usr/include/c++/13/bits/align.h
  /usr/include/c++/13/bits/alloc_traits.h
+ /usr/include/c++/13/bits/allocated_ptr.h
  /usr/include/c++/13/bits/allocator.h
+ /usr/include/c++/13/bits/atomic_base.h
+ /usr/include/c++/13/bits/atomic_lockfree_defines.h
  /usr/include/c++/13/bits/basic_ios.h
  /usr/include/c++/13/bits/basic_ios.tcc
  /usr/include/c++/13/bits/basic_string.h
@@ -101,6 +109,7 @@ CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o
  /usr/include/c++/13/bits/cpp_type_traits.h
  /usr/include/c++/13/bits/cxxabi_forced.h
  /usr/include/c++/13/bits/cxxabi_init_exception.h
+ /usr/include/c++/13/bits/deque.tcc
  /usr/include/c++/13/bits/erase_if.h
  /usr/include/c++/13/bits/exception.h
  /usr/include/c++/13/bits/exception_defines.h
@@ -132,11 +141,15 @@ CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o
  /usr/include/c++/13/bits/range_access.h
  /usr/include/c++/13/bits/refwrap.h
  /usr/include/c++/13/bits/requires_hosted.h
+ /usr/include/c++/13/bits/shared_ptr.h
+ /usr/include/c++/13/bits/shared_ptr_atomic.h
+ /usr/include/c++/13/bits/shared_ptr_base.h
  /usr/include/c++/13/bits/std_abs.h
  /usr/include/c++/13/bits/stl_algo.h
  /usr/include/c++/13/bits/stl_algobase.h
  /usr/include/c++/13/bits/stl_bvector.h
  /usr/include/c++/13/bits/stl_construct.h
+ /usr/include/c++/13/bits/stl_deque.h
  /usr/include/c++/13/bits/stl_function.h
  /usr/include/c++/13/bits/stl_heap.h
  /usr/include/c++/13/bits/stl_iterator.h
@@ -145,6 +158,8 @@ CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o
  /usr/include/c++/13/bits/stl_map.h
  /usr/include/c++/13/bits/stl_multimap.h
  /usr/include/c++/13/bits/stl_pair.h
+ /usr/include/c++/13/bits/stl_raw_storage_iter.h
+ /usr/include/c++/13/bits/stl_stack.h
  /usr/include/c++/13/bits/stl_tempbuf.h
  /usr/include/c++/13/bits/stl_tree.h
  /usr/include/c++/13/bits/stl_uninitialized.h
@@ -155,6 +170,7 @@ CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o
  /usr/include/c++/13/bits/string_view.tcc
  /usr/include/c++/13/bits/stringfwd.h
  /usr/include/c++/13/bits/uniform_int_dist.h
+ /usr/include/c++/13/bits/unique_ptr.h
  /usr/include/c++/13/bits/uses_allocator.h
  /usr/include/c++/13/bits/uses_allocator_args.h
  /usr/include/c++/13/bits/utility.h
@@ -170,10 +186,12 @@ CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o
  /usr/include/c++/13/cwctype
  /usr/include/c++/13/debug/assertions.h
  /usr/include/c++/13/debug/debug.h
+ /usr/include/c++/13/deque
  /usr/include/c++/13/exception
  /usr/include/c++/13/ext/aligned_buffer.h
  /usr/include/c++/13/ext/alloc_traits.h
  /usr/include/c++/13/ext/atomicity.h
+ /usr/include/c++/13/ext/concurrence.h
  /usr/include/c++/13/ext/numeric_traits.h
  /usr/include/c++/13/ext/string_conversions.h
  /usr/include/c++/13/ext/type_traits.h
@@ -183,11 +201,14 @@ CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o
  /usr/include/c++/13/iterator
  /usr/include/c++/13/locale
  /usr/include/c++/13/map
+ /usr/include/c++/13/memory
  /usr/include/c++/13/new
  /usr/include/c++/13/ostream
  /usr/include/c++/13/pstl/execution_defs.h
  /usr/include/c++/13/pstl/glue_algorithm_defs.h
+ /usr/include/c++/13/pstl/glue_memory_defs.h
  /usr/include/c++/13/pstl/pstl_config.h
+ /usr/include/c++/13/stack
  /usr/include/c++/13/stdexcept
  /usr/include/c++/13/streambuf
  /usr/include/c++/13/string
@@ -299,13 +320,6 @@ CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.o
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
 
-CMakeFiles/projectAlpha.dir/src/GameplayState.cpp.o
- /home/joachim/programming/c++/projectAlpha/src/GameplayState.cpp
- /home/joachim/programming/c++/projectAlpha/include/GameState.h
- /home/joachim/programming/c++/projectAlpha/include/GameplayState.h
- /home/joachim/programming/c++/projectAlpha/include/Input.h
- /usr/include/stdc-predef.h
-
 CMakeFiles/projectAlpha.dir/src/main.cpp.o
  /home/joachim/programming/c++/projectAlpha/src/main.cpp
  /home/joachim/libraries/SFML/include/SFML/Config.hpp
@@ -384,15 +398,25 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o
  /home/joachim/libraries/SFML/include/SFML/Window/WindowBase.hpp
  /home/joachim/libraries/SFML/include/SFML/Window/WindowHandle.hpp
  /home/joachim/libraries/SFML/include/SFML/Window/WindowStyle.hpp
+ /home/joachim/programming/c++/projectAlpha/Utility/Constants.h
+ /home/joachim/programming/c++/projectAlpha/include/GameEngine.h
+ /home/joachim/programming/c++/projectAlpha/include/GameState.h
+ /home/joachim/programming/c++/projectAlpha/include/GameplayState.h
+ /home/joachim/programming/c++/projectAlpha/include/Input.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h
  /usr/include/c++/13/algorithm
+ /usr/include/c++/13/backward/auto_ptr.h
  /usr/include/c++/13/backward/binders.h
  /usr/include/c++/13/bit
  /usr/include/c++/13/bits/algorithmfwd.h
+ /usr/include/c++/13/bits/align.h
  /usr/include/c++/13/bits/alloc_traits.h
+ /usr/include/c++/13/bits/allocated_ptr.h
  /usr/include/c++/13/bits/allocator.h
+ /usr/include/c++/13/bits/atomic_base.h
+ /usr/include/c++/13/bits/atomic_lockfree_defines.h
  /usr/include/c++/13/bits/basic_ios.h
  /usr/include/c++/13/bits/basic_ios.tcc
  /usr/include/c++/13/bits/basic_string.h
@@ -404,6 +428,7 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o
  /usr/include/c++/13/bits/cpp_type_traits.h
  /usr/include/c++/13/bits/cxxabi_forced.h
  /usr/include/c++/13/bits/cxxabi_init_exception.h
+ /usr/include/c++/13/bits/deque.tcc
  /usr/include/c++/13/bits/erase_if.h
  /usr/include/c++/13/bits/exception.h
  /usr/include/c++/13/bits/exception_defines.h
@@ -435,11 +460,15 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o
  /usr/include/c++/13/bits/range_access.h
  /usr/include/c++/13/bits/refwrap.h
  /usr/include/c++/13/bits/requires_hosted.h
+ /usr/include/c++/13/bits/shared_ptr.h
+ /usr/include/c++/13/bits/shared_ptr_atomic.h
+ /usr/include/c++/13/bits/shared_ptr_base.h
  /usr/include/c++/13/bits/std_abs.h
  /usr/include/c++/13/bits/stl_algo.h
  /usr/include/c++/13/bits/stl_algobase.h
  /usr/include/c++/13/bits/stl_bvector.h
  /usr/include/c++/13/bits/stl_construct.h
+ /usr/include/c++/13/bits/stl_deque.h
  /usr/include/c++/13/bits/stl_function.h
  /usr/include/c++/13/bits/stl_heap.h
  /usr/include/c++/13/bits/stl_iterator.h
@@ -448,6 +477,8 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o
  /usr/include/c++/13/bits/stl_map.h
  /usr/include/c++/13/bits/stl_multimap.h
  /usr/include/c++/13/bits/stl_pair.h
+ /usr/include/c++/13/bits/stl_raw_storage_iter.h
+ /usr/include/c++/13/bits/stl_stack.h
  /usr/include/c++/13/bits/stl_tempbuf.h
  /usr/include/c++/13/bits/stl_tree.h
  /usr/include/c++/13/bits/stl_uninitialized.h
@@ -458,6 +489,7 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o
  /usr/include/c++/13/bits/string_view.tcc
  /usr/include/c++/13/bits/stringfwd.h
  /usr/include/c++/13/bits/uniform_int_dist.h
+ /usr/include/c++/13/bits/unique_ptr.h
  /usr/include/c++/13/bits/uses_allocator.h
  /usr/include/c++/13/bits/uses_allocator_args.h
  /usr/include/c++/13/bits/utility.h
@@ -473,10 +505,12 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o
  /usr/include/c++/13/cwctype
  /usr/include/c++/13/debug/assertions.h
  /usr/include/c++/13/debug/debug.h
+ /usr/include/c++/13/deque
  /usr/include/c++/13/exception
  /usr/include/c++/13/ext/aligned_buffer.h
  /usr/include/c++/13/ext/alloc_traits.h
  /usr/include/c++/13/ext/atomicity.h
+ /usr/include/c++/13/ext/concurrence.h
  /usr/include/c++/13/ext/numeric_traits.h
  /usr/include/c++/13/ext/string_conversions.h
  /usr/include/c++/13/ext/type_traits.h
@@ -486,11 +520,14 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o
  /usr/include/c++/13/iterator
  /usr/include/c++/13/locale
  /usr/include/c++/13/map
+ /usr/include/c++/13/memory
  /usr/include/c++/13/new
  /usr/include/c++/13/ostream
  /usr/include/c++/13/pstl/execution_defs.h
  /usr/include/c++/13/pstl/glue_algorithm_defs.h
+ /usr/include/c++/13/pstl/glue_memory_defs.h
  /usr/include/c++/13/pstl/pstl_config.h
+ /usr/include/c++/13/stack
  /usr/include/c++/13/stdexcept
  /usr/include/c++/13/streambuf
  /usr/include/c++/13/string

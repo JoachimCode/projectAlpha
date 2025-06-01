@@ -1,7 +1,7 @@
 #ifndef STATECHANGEREQUEST_H
 #define STATECHANGEREQUEST_H
 #include <memory>
-#include <GameState.h>
+#include <states/GameState.h>
 #include <Type.h>
 struct StateChangeRequest{
     Type type;

@@ -283,29 +283,101 @@ src/GameEngine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/GameEngine.cpp.s
 .PHONY : src/GameEngine.cpp.s
 
-src/GameplayState.o: src/GameplayState.cpp.o
-.PHONY : src/GameplayState.o
+src/InputHandler.o: src/InputHandler.cpp.o
+.PHONY : src/InputHandler.o
 
 # target to build an object file
-src/GameplayState.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/GameplayState.cpp.o
-.PHONY : src/GameplayState.cpp.o
+src/InputHandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/InputHandler.cpp.o
+.PHONY : src/InputHandler.cpp.o
 
-src/GameplayState.i: src/GameplayState.cpp.i
-.PHONY : src/GameplayState.i
+src/InputHandler.i: src/InputHandler.cpp.i
+.PHONY : src/InputHandler.i
 
 # target to preprocess a source file
-src/GameplayState.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/GameplayState.cpp.i
-.PHONY : src/GameplayState.cpp.i
+src/InputHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/InputHandler.cpp.i
+.PHONY : src/InputHandler.cpp.i
 
-src/GameplayState.s: src/GameplayState.cpp.s
-.PHONY : src/GameplayState.s
+src/InputHandler.s: src/InputHandler.cpp.s
+.PHONY : src/InputHandler.s
 
 # target to generate assembly for a file
-src/GameplayState.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/GameplayState.cpp.s
-.PHONY : src/GameplayState.cpp.s
+src/InputHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/InputHandler.cpp.s
+.PHONY : src/InputHandler.cpp.s
+
+src/Painter.o: src/Painter.cpp.o
+.PHONY : src/Painter.o
+
+# target to build an object file
+src/Painter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/Painter.cpp.o
+.PHONY : src/Painter.cpp.o
+
+src/Painter.i: src/Painter.cpp.i
+.PHONY : src/Painter.i
+
+# target to preprocess a source file
+src/Painter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/Painter.cpp.i
+.PHONY : src/Painter.cpp.i
+
+src/Painter.s: src/Painter.cpp.s
+.PHONY : src/Painter.s
+
+# target to generate assembly for a file
+src/Painter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/Painter.cpp.s
+.PHONY : src/Painter.cpp.s
+
+src/entities/Player.o: src/entities/Player.cpp.o
+.PHONY : src/entities/Player.o
+
+# target to build an object file
+src/entities/Player.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/entities/Player.cpp.o
+.PHONY : src/entities/Player.cpp.o
+
+src/entities/Player.i: src/entities/Player.cpp.i
+.PHONY : src/entities/Player.i
+
+# target to preprocess a source file
+src/entities/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/entities/Player.cpp.i
+.PHONY : src/entities/Player.cpp.i
+
+src/entities/Player.s: src/entities/Player.cpp.s
+.PHONY : src/entities/Player.s
+
+# target to generate assembly for a file
+src/entities/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/entities/Player.cpp.s
+.PHONY : src/entities/Player.cpp.s
+
+src/factories/StageGenerator.o: src/factories/StageGenerator.cpp.o
+.PHONY : src/factories/StageGenerator.o
+
+# target to build an object file
+src/factories/StageGenerator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/factories/StageGenerator.cpp.o
+.PHONY : src/factories/StageGenerator.cpp.o
+
+src/factories/StageGenerator.i: src/factories/StageGenerator.cpp.i
+.PHONY : src/factories/StageGenerator.i
+
+# target to preprocess a source file
+src/factories/StageGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/factories/StageGenerator.cpp.i
+.PHONY : src/factories/StageGenerator.cpp.i
+
+src/factories/StageGenerator.s: src/factories/StageGenerator.cpp.s
+.PHONY : src/factories/StageGenerator.s
+
+# target to generate assembly for a file
+src/factories/StageGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/factories/StageGenerator.cpp.s
+.PHONY : src/factories/StageGenerator.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -331,6 +403,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/states/CutSceneState.o: src/states/CutSceneState.cpp.o
+.PHONY : src/states/CutSceneState.o
+
+# target to build an object file
+src/states/CutSceneState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/states/CutSceneState.cpp.o
+.PHONY : src/states/CutSceneState.cpp.o
+
+src/states/CutSceneState.i: src/states/CutSceneState.cpp.i
+.PHONY : src/states/CutSceneState.i
+
+# target to preprocess a source file
+src/states/CutSceneState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/states/CutSceneState.cpp.i
+.PHONY : src/states/CutSceneState.cpp.i
+
+src/states/CutSceneState.s: src/states/CutSceneState.cpp.s
+.PHONY : src/states/CutSceneState.s
+
+# target to generate assembly for a file
+src/states/CutSceneState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/states/CutSceneState.cpp.s
+.PHONY : src/states/CutSceneState.cpp.s
+
+src/states/GameplayState.o: src/states/GameplayState.cpp.o
+.PHONY : src/states/GameplayState.o
+
+# target to build an object file
+src/states/GameplayState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/states/GameplayState.cpp.o
+.PHONY : src/states/GameplayState.cpp.o
+
+src/states/GameplayState.i: src/states/GameplayState.cpp.i
+.PHONY : src/states/GameplayState.i
+
+# target to preprocess a source file
+src/states/GameplayState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/states/GameplayState.cpp.i
+.PHONY : src/states/GameplayState.cpp.i
+
+src/states/GameplayState.s: src/states/GameplayState.cpp.s
+.PHONY : src/states/GameplayState.s
+
+# target to generate assembly for a file
+src/states/GameplayState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectAlpha.dir/build.make CMakeFiles/projectAlpha.dir/src/states/GameplayState.cpp.s
+.PHONY : src/states/GameplayState.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -354,12 +474,27 @@ help:
 	@echo "... src/GameEngine.o"
 	@echo "... src/GameEngine.i"
 	@echo "... src/GameEngine.s"
-	@echo "... src/GameplayState.o"
-	@echo "... src/GameplayState.i"
-	@echo "... src/GameplayState.s"
+	@echo "... src/InputHandler.o"
+	@echo "... src/InputHandler.i"
+	@echo "... src/InputHandler.s"
+	@echo "... src/Painter.o"
+	@echo "... src/Painter.i"
+	@echo "... src/Painter.s"
+	@echo "... src/entities/Player.o"
+	@echo "... src/entities/Player.i"
+	@echo "... src/entities/Player.s"
+	@echo "... src/factories/StageGenerator.o"
+	@echo "... src/factories/StageGenerator.i"
+	@echo "... src/factories/StageGenerator.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/states/CutSceneState.o"
+	@echo "... src/states/CutSceneState.i"
+	@echo "... src/states/CutSceneState.s"
+	@echo "... src/states/GameplayState.o"
+	@echo "... src/states/GameplayState.i"
+	@echo "... src/states/GameplayState.s"
 .PHONY : help
 
 

@@ -4,8 +4,16 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 add_executable(projectAlpha
     src/main.cpp
-    src/GameplayState.cpp
-    src/GameEngine.cpp 
+    src/GameEngine.cpp
+    src/InputHandler.cpp
+    src/Painter.cpp
+
+    src/entities/Player.cpp
+    src/factories/StageGenerator.cpp
+    src/states/CutSceneState.cpp
+    src/states/GameplayState.cpp
+    
+
 )
 
 add_subdirectory(../../../libraries/SFML sfml)

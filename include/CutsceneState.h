@@ -1,7 +1,7 @@
 #ifndef CUTSCENE_H
 #define CUTSCENE_H
-#include <GameState.h>
-#include <GameplayState.h>
+#include <states/GameState.h>
+#include <states/GameplayState.h>
 #include <memory>
 
 
@@ -9,7 +9,7 @@ class CutsceneState : public GameState {
     public: 
     CutsceneState(std::unique_ptr<GameplayState> nextGameState_) : nextGamestate(std::move(nextGameState_)) {}
     void update() override;
-    void renderScreen() override;   
+    void renderScreen(sf::RenderWindow& window, Painter painter) const override;   
     StateChangeRequest getChangeRequest() const;
 
     private: 

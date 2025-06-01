@@ -5,9 +5,9 @@
 #include <stack>
 #include <vector>
 #include <memory>
-#include <GameplayState.h>
-#include <GameState.h>
-#include <Player.h>
+#include <states/GameplayState.h>
+#include <states/GameState.h>
+#include <entities/Player.h>
 
 
 
@@ -17,9 +17,10 @@ class GameEngine {
     void gameLoop();
 
     //fix this, then create state in testStart() and test.
-    GameEngine() : painter(), player() {};
+    GameEngine() : painter(screen), player(500, 500, 100, 100, 0) {};
 
     private:
+    Player player;
     Painter painter;
     sf::RenderWindow screen;
     sf::Clock gameClock;
@@ -27,7 +28,6 @@ class GameEngine {
     void setUpScreen();
     sf::RenderWindow& getScreen();
     sf::Clock& getGameClock();
-
     void testStart();
 };
 

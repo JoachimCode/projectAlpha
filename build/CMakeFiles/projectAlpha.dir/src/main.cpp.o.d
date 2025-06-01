@@ -267,7 +267,15 @@ CMakeFiles/projectAlpha.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
- /home/joachim/programming/c++/projectAlpha/include/GameplayState.h \
- /home/joachim/programming/c++/projectAlpha/include/GameState.h \
+ /home/joachim/programming/c++/projectAlpha/include/states/GameplayState.h \
+ /home/joachim/programming/c++/projectAlpha/include/states/GameState.h \
  /home/joachim/programming/c++/projectAlpha/include/Input.h \
- /home/joachim/programming/c++/projectAlpha/include/GameState.h
+ /home/joachim/programming/c++/projectAlpha/include/Direction.h \
+ /home/joachim/programming/c++/projectAlpha/include/InputHandler.h \
+ /home/joachim/programming/c++/projectAlpha/include/Input.h \
+ /home/joachim/programming/c++/projectAlpha/include/StateChangeRequest.h \
+ /home/joachim/programming/c++/projectAlpha/include/Type.h \
+ /home/joachim/programming/c++/projectAlpha/include/entities/Player.h \
+ /home/joachim/programming/c++/projectAlpha/include/entities/Entity.h \
+ /home/joachim/programming/c++/projectAlpha/include/CutsceneState.h \
+ /home/joachim/programming/c++/projectAlpha/include/Painter.h

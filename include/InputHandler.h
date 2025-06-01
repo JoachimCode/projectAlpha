@@ -6,7 +6,7 @@
 
 class InputHandler {
     public:
-    Input& getInput() const;
+    Input& getInput();
     
     private:
     Input currentInput;
